@@ -1,3 +1,21 @@
 This is a hello world device driver written in C.
 
 The goal of this project to take the first steps in learning about how device drivers work in linux.
+
+Commands to know:
+
+	(list loaded drivers)
+	lsmod
+
+	(list a specific driver, if found)
+	lsmod | grep "driver_name"
+
+	(insert a driver)
+	insmod "driver_name"
+
+	(print kernel messages found at the end)
+	dmesg | tail
+
+	(remove a driver)
+	rmmod "driver_name"
+

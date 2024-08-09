@@ -1,2 +1,15 @@
 /build
+src/driver.ko
+src/driver.mod
+src/driver.mod.c
+src/driver.mod.o
+src/driver.o
+src/modules.order
+src/Module.symvers
+src/.Module.symvers.cmd
+src/.driver.ko.cmd
+src/.driver.mod.cmd
+src/.driver.mod.o.cmd
+src/.driver.o.cmd
+src/.modules.order.cmd
 
